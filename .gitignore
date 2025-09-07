@@ -1,0 +1,49 @@
+# Java / Gradle
+/backend/.gradle/
+/backend/build/
+/backend/.cache/
+/backend/*.log
+/backend/backend-error.log
+/backend/backend-error-stacktrace.log
+
+# IDEs
+/.idea/
+.vscode/
+*.iml
+
+# Node / frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.cache/
+/frontend/.vercel/
+/frontend/.env.local
+/frontend/.env
+
+# Root node
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Gradle wrapper
+.gradle/
+
+# Misc
+target/
+*.class
+*.jar
+*.war
+
+# Ignore generated TypeScript build info
+tsconfig.tsbuildinfo
